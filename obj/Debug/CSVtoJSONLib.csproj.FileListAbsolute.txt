@@ -1,0 +1,10 @@
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\bin\Debug\CSVtoJSONLib.pdb
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.csproj.AssemblyReference.cache
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.csproj.CoreCompileInputs.cache
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.pdb
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\bin\Debug\CSVtoJSONLib.exe
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.exe
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nishani.krupakar\source\repos\CSVtoJSONSolution\CSVtoJSONLib\obj\Debug\CSVtoJSONLib.csproj.CopyComplete

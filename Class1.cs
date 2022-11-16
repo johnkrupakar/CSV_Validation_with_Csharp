@@ -54,16 +54,18 @@ namespace CSVtoJSONLib
                                 string result = JsonConvert.SerializeObject(model, Formatting.Indented);
                                 //creating an storing the output in the Json file
                                 int count = 0;
-                                string filepath = @"D:\inputCSV.json";
-                                if (File.Exists(filepath))
+                                string filepath = @"D:\inputCSV";
+                                string extension = ".json";
+                                string extensionRes = filepath+extension;
+                                if (File.Exists(filepath + extension))
                                 {
                                     count++;
                                     String incCount = filepath + count;
-                                    File.AppendAllText(incCount, result);
+                                    File.AppendAllText(incCount+extension, result);
                                 }
                                 else
                                 {
-                                    File.AppendAllText(filepath, result);
+                                    File.AppendAllText(filepath + extension, result);
                                 }
 
                                 Console.WriteLine(result);

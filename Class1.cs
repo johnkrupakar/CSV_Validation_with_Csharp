@@ -53,9 +53,19 @@ namespace CSVtoJSONLib
 
                                 string result = JsonConvert.SerializeObject(model, Formatting.Indented);
                                 //creating an storing the output in the Json file
+                                int count = 0;
                                 string filepath = @"D:\inputCSV.json";
+                                if (File.Exists(filepath))
+                                {
+                                    count++;
+                                    String incCount = filepath + count;
+                                    File.AppendAllText(incCount, result);
+                                }
+                                else
+                                {
+                                    File.AppendAllText(filepath, result);
+                                }
 
-                                File.AppendAllText(filepath, result);
                                 Console.WriteLine(result);
                             }
                             //Because 1 account can have multiple transactions
